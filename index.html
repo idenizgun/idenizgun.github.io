@@ -1,49 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Academic website of İ. Deniz Gün</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic website of İ. Deniz Gün, a recent Physics graduate from Istanbul Technical University with interests in mathematical physics, cosmology, ML, and NLP.">
+    <meta name="keywords" content="Physics, Mathematical Physics, Cosmology, Quantum, Machine Learning, NLP, İ. Deniz Gün">
+    <meta name="author" content="İ. Deniz Gün">
+    <title>Academic Website of İ. Deniz Gün</title>
     <style>
       body {
         text-align: center;
+        font-family: Arial, sans-serif;
       }
-  
+
       .abstract {
         text-align: justify;
         margin: 0 150px;
       }
-  
+
       .abstract p {
         margin: 20px 0;
       }
+
+      .social-links {
+        margin-left: 260px;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+        float: left;
+        margin-right: 20px;
+      }
+
+      a {
+        font-size: 16px;
+        color: blue;
+        text-decoration: none;
+      }
+
+      a.bold-link {
+        font-size: 24px;
+        font-weight: bold;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media screen and (max-width: 768px) {
+        .abstract {
+          margin: 0 10px; /* reduced margin for smaller screens */
+        }
+        .social-links {
+          margin-left: 0;
+        }
+      }
     </style>
   </head>
- 
+
   <body>
-    <h1 style="text-align: center;">Academic Website of İ. Deniz Gün</h1>
+    <h1>Academic Website of İ. Deniz Gün</h1>
     <hr>
-<div style="text-align: center;">
-  <div style="display: inline-block; text-align: left;">
-
-      
-    <img src="80.jpg" alt="" style="width: 250px; height: 300px; float: left;">
-    <div style="margin-left: 260px;">
-      <p>Social Media Links: <a href="twitter.html">Twitter</a>, <a href="https://www.linkedin.com/in/idenizgun/">LinkedIn</a></p>
-      <p>Github: <a href="https://github.com/idenizgun">GitHub Profile</a></p>
-      <p>CV (Özgeçmiş): <a href="CV_idenizgun.pdf" download>CV </a></p>
-      <p>Email: ismaildenizgun at gmail dot com</p>
-      <a href="archive.html">İTÜ GÜN archive</a>
+    <div>
+      <div style="display: inline-block; text-align: left;">
+        <img src="80.jpg" alt="Portrait of İ. Deniz Gün">
+        <div class="social-links">
+          <p>Social Media Links: <a href="twitter.html" aria-label="Link to Twitter profile">Twitter</a>, <a href="https://www.linkedin.com/in/idenizgun/" target="_blank" rel="noopener noreferrer" aria-label="Link to LinkedIn profile">LinkedIn</a></p>
+          <p>GitHub: <a href="https://github.com/idenizgun" target="_blank" rel="noopener noreferrer" aria-label="Link to GitHub profile">GitHub Profile</a></p>
+          <p>CV (Özgeçmiş): <a href="CV_idenizgun.pdf" download>Download CV</a></p>
+          <p>Email: ismaildenizgun at gmail dot com</p>
+          <p><a href="archive.html">İTÜ GÜN Archive</a></p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="abstract">
-    <p>I am a recent Physics graduate from Istanbul Technical University with a minor in Theoretical Mathematics. I am mostly interested in mathematical physics, cosmology, and ways to improve our understanding of gravity, the standard model, practical applications of known equations, and the effects of quantization on such systems (trying to avoid saying "quantum gravity").
-      
-      Recently I have developed an interest in all thing quantum as well as Topos Theory and Locale Theory, I would appreciate any guidance on these topics.
-      I live to learn more mathematics and find joy whenever I see its actual applications in physics. In the meantime, I am also developing myself in the fields of ML and NLP. I'll try to keep my GitHub updated with any relevant projects I may develop regarding ML. (On hiatus for now) </p>
 
-    <p>I believe science, especially math and physics, is a collaborative effort. I always try my best to help out along the way, so feel free to contact me. I've probably been there (or even worse). My full name is İsmail Deniz Gün / İsmail Deniz Gün (including this for search engine optimization purposes).</p>
-    <p><a href="Lie_analysis.html" style="font-size: 24px; font-weight: bold;">Click Here for the ICPS Lie Group Analysis Materials</a></p>
-    </p>
-  </div>
-</div>
-</body>
+    <div class="abstract">
+      <p>
+        I am a recent Physics graduate from Istanbul Technical University with a minor in Theoretical Mathematics. I am mostly interested in mathematical physics, cosmology, and ways to improve our understanding of gravity, the standard model, practical applications of known equations, and the effects of quantization on such systems (trying to avoid saying "quantum gravity").
+      </p>
+      <p>
+        Recently I have developed an interest in all things quantum, as well as Topos Theory and Locale Theory. I would appreciate any guidance on these topics. I live to learn more mathematics and find joy whenever I see its actual applications in physics. In the meantime, I am also developing myself in the fields of ML and NLP. I'll try to keep my GitHub updated with any relevant projects I may develop regarding ML (currently on hiatus).
+      </p>
+      <p>
+        I believe science, especially math and physics, is a collaborative effort. I always try my best to help out along the way, so feel free to contact me. I've probably been there (or even worse). My full name is İsmail Deniz Gün / İsmail Deniz Gün (including this for search engine optimization purposes).
+      </p>
+      <p>
+        I have decided to create a CV of Failures so that, maybe in dire times, it might help keep my perspective in check. I will try to keep it updated.
+      </p>
+      <p><a href="failures.html" class="bold-link">Click Here for Failures and Lessons Learned</a></p>
+      <p><a href="Lie_analysis.html" class="bold-link">Click Here for the ICPS Lie Group Analysis Materials</a></p>
+    </div>
+  </body>
 </html>
